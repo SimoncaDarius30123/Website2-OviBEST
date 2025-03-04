@@ -1,0 +1,75 @@
+.reclama{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Images/Loading___.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reclameH1{
+    color:white;
+    margin:0;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.elementeReclama{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap; /* Permite elementelor să se aranjeze pe mai multe linii */
+    justify-content: space-around;
+}
+
+.reclame-col{
+    flex-basis: 25%;
+    border-radius: 2px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    text-align: left;
+    text-align: center;
+   
+}
+
+.reclame-col i{
+    color:red;
+    padding: 20px;
+}
+
+.reclame-col h1{
+    color:#fff;
+    font-size: 30px;
+}
+.reclame-col h1 span{
+    font-size:31px;
+    color:yellow;
+}
+
+.reclame-col p{
+    color:white;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+@media(max-width:700px){
+
+.reclama{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Images/Loading___.jfif);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.elementeReclama{
+    display: inline-block;
+}
+
+}
+

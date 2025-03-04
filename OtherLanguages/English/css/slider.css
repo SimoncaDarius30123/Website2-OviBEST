@@ -1,0 +1,72 @@
+.backroundImageSlider{
+    min-height: 81vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(slide-1.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-top: 10px;
+    animation: slide 16s ease-in-out infinite;
+    transition: background-size 0.5s ease;
+}
+
+@keyframes slide{
+    0%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(slide-1.jpg);
+    }
+    25%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(slide-2.jpg);
+    }
+    50%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(slide-3.jpg);
+    }
+   75%{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(slide-4.jpg);
+    }
+    100%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(slide-5.jpg);
+    }
+}
+
+.mesajPrincipal{
+    width: 90%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mesajPrincipal h1{
+    font-size: 32px;
+    color:#fff;
+}
+
+.mesajPrincipal p{
+    margin:10px 0 40px;
+    font-size: 17px;
+    color:#fff;
+}
+
+.mesajPrincipal p span{
+    color:orange;
+}
+
+@media(max-width:700px){
+
+.mesajPrincipal{
+    width: 95%;
+}
+
+.mesajPrincipal h1 {
+        font-size: 25px;
+}
+
+.mesajPrincipal p{
+    font-size: 12px;
+}
+.backroundImageSlider{
+    min-height: 84vh;
+}
+}
