@@ -1,0 +1,42 @@
+.announcementImage{
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	padding: 3px;
+}
+
+.announcement{
+	height: 25vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.announcement h3{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.announcement h3 span{
+	color:red;
+}
+
+#FlagsMobile{
+    display: none;
+}
+
+@media(max-width:700px){
+    .announcementImage img{
+        height: 25vh;
+    }
+
+    .announcement h3{
+        font-size: 15px;
+    }
+    .announcement {
+        height: 10vh;
+    }
+    
+}

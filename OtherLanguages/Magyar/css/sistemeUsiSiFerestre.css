@@ -1,0 +1,29 @@
+#primulElement{
+    margin-bottom: 45px;
+}
+
+#lastPhoto{
+    margin-left: 3px;
+}
+
+#lastImage{
+    max-width: 100%; /* Asigură o lățime maximă pentru imagine */
+    display: block; /* Asigură că imaginea este afișată ca un bloc */
+    margin: 0 auto;
+}
+
+
+
+
+@media(max-width:700px){
+    .textProduse h1{
+        font-size: 25px;
+    }
+
+
+
+    #lastPhoto{
+        margin: 0;
+    }
+
+}

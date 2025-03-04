@@ -1,0 +1,52 @@
+.culoriSiForme {
+    display: flex;
+    margin-top: 25px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.col-50 {
+    flex: 1;
+    padding:0; /* Adaugă puțin spațiu între cele două coloane */
+}
+
+.col-50 img {
+    width: 100%;
+    height: auto;
+}
+
+.col-50 p {
+    color:black;
+    font-size: 17px;
+    line-height: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.col-50 p span{
+    color:orange;
+}
+
+.textProduse h1 span{
+    color:red;
+}
+
+#secondCulori{
+    margin-bottom: 70px;
+}
+
+@media(max-width:700px){
+    .culoriSiForme{
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .textProduse h1{
+        text-align: left;
+    }
+
+    .col-50 p{
+        line-height: 45px;
+    }
+}

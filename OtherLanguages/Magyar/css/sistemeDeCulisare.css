@@ -1,0 +1,22 @@
+#primul{
+    margin-top: 50px;
+}
+
+
+
+.col-50 img{
+    width: 75%;
+}
+
+@media(max-width:700px){
+    .col-50 img{
+        width: 100%;
+    }
+    #secondCulori img{
+        margin-top: 0px;
+    }
+}
+
+#secondCulori img{
+    margin-top: 50px;
+}

@@ -1,0 +1,75 @@
+.prezentare{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.elementePrezentare{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap; /* Permite elementelor să se aranjeze pe mai multe linii */
+    justify-content: space-around;
+}
+
+.prezentare-col3{
+    flex-basis: 25%;
+    border-radius: 2px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+}
+
+.prezentare-col{
+    flex-basis: 25%;
+    border-radius: 2px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+    display: inline-block;
+}
+
+.prezentare-col3 img{
+    height: auto;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Images/attention.jfif);
+}
+
+.prezentare-col2{
+    margin-bottom: 50px;
+}
+
+.prezentare-col2 h1{
+    font-size: 34px;
+    color:red;
+}
+
+.prezentare-col2 p{
+    font-size: 14px;
+    color:black;
+}
+
+
+.prezentare-col2 span{
+    color:#cc2936;
+}
+
+@media(max-width:700px){
+
+    .prezentare{
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    
+    .elementePrezentare{
+        display: inline-block;
+    }
+    .prezentare-col{
+        padding: 5px;
+    }
+}
+
