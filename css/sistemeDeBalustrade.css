@@ -1,0 +1,9 @@
+#imaginea{
+    display: flex; justify-content: center; align-items: center;
+}
+
+#imaginea img{
+    height: auto;
+    width: auto;
+    display: inline-block;
+}

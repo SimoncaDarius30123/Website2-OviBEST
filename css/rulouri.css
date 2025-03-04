@@ -1,0 +1,34 @@
+#imaginea{
+    display:flex; justify-content: center; align-items: center;
+}
+
+#imaginea img{
+    height: auto;
+    display: inline-block;
+}
+
+@media(max-width:700px){
+
+    
+
+    #imaginea{
+        display:inline-block;
+    }
+
+    #imaginea img{
+        height:auto;
+        width: auto;
+    }
+}
+
+.products-col h3{
+    font-size: 15px;
+}
+
+.products{
+    margin-top: 0;
+}
+
+.rowProduse{
+    margin-top: 0;
+}

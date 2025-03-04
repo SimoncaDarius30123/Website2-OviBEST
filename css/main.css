@@ -1,0 +1,15 @@
+#statusData{
+    color:green;
+	font-size:14px;
+	font-weight:400;
+}
+
+#contactTelefon{
+	display: none;
+}
+
+.logo img{
+	width: 178px;
+	height: 63px;
+}
+

@@ -1,0 +1,68 @@
+.servicii {
+    display: flex;
+}
+
+.col-50 {
+    flex: 1;
+    padding:0; /* Adaugă puțin spațiu între cele două coloane */
+}
+
+.col-50 img {
+    width: 100%;
+    height: auto;
+}
+
+.col-50 p {
+    color:black;
+    font-size: 17px;
+    line-height: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+}
+
+.col-50 h1 {
+    color:black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.col-50 p span{
+    color:orange;
+}
+
+@media(max-width:700px){
+    .servicii{
+        display: inline-block;
+    }
+}
+
+.otherServices{
+    margin-top: 60px;
+    width: 100%;
+    height:auto;
+    margin-bottom: 60px;
+}
+
+.otherServices h2{
+    margin-left: 25px;
+    font-weight: bold;
+    word-spacing: 9px;
+    font-size: 30px;
+}
+
+.otherServices ul li{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    color:black;
+    list-style-type: disc;
+}
+
+@media(max-width:700px){
+    .otherServices h2{
+        font-size: 25px;
+    }
+}
